@@ -14,7 +14,7 @@ html, body {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  background: #32dd41;
+  background: #55aa55;
   border-radius: 5px;
 }
 
@@ -23,7 +23,7 @@ html, body {
   height: 150px;
   border-radius: 5px;
   background: #fff;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,6 +35,9 @@ html, body {
 }
 .card-information:last-child {
   justify-content: flex-end;
+}
+.card-ranks .rank {
+  height: 50px;
 }
 .card-information img {
   margin-left: 5px;
