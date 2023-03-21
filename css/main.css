@@ -1,3 +1,43 @@
+html svg, html img, body svg, body img {
+  height: 15px;
+}
 
+html, body {
+  font-family: "Nerko One", cursive;
+  color: #353c4d;
+  font-size: 20px;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  background: #32dd41;
+  border-radius: 5px;
+}
+
+.card {
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px 7px;
+}
+.card-information {
+  display: flex;
+  align-items: center;
+}
+.card-information:last-child {
+  justify-content: flex-end;
+}
+.card-information img {
+  margin-left: 5px;
+}
 
 /*# sourceMappingURL=main.css.map */
